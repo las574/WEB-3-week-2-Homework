@@ -160,6 +160,43 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/homework\/deploy\/img\/gallery\/gallery1.jpg" : {
+      "ft" : 16384,
+      "iS" : 79363,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/homework\/deploy\/img\/gallery\/gallery1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/homework\/deploy\/img\/gallery\/gallery2.webp" : {
+      "ft" : 8388608,
+      "iS" : 265734,
+      "oA" : 0,
+      "oAP" : "\/homework\/deploy\/img\/gallery\/gallery2.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/homework\/deploy\/img\/gallery\/gallery3.jpg" : {
+      "ft" : 16384,
+      "iS" : 158972,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/homework\/deploy\/img\/gallery\/gallery3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/homework\/deploy\/img\/global\/arrow.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -255,6 +292,14 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/homework\/dev\/content\/gallery.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/homework\/dev\/content\/gallery.html",
+      "oF" : 0
     },
     "\/homework\/dev\/content\/hero.kit" : {
       "cB" : 0,
