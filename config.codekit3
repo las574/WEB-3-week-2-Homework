@@ -213,6 +213,30 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/homework\/deploy\/img\/hero\/subhero1.jpg" : {
+      "ft" : 16384,
+      "iS" : 172217,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/homework\/deploy\/img\/hero\/subhero1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/homework\/deploy\/img\/hero\/subhero2.webp" : {
+      "ft" : 8388608,
+      "iS" : 150604,
+      "oA" : 0,
+      "oAP" : "\/homework\/deploy\/img\/hero\/subhero2.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/homework\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -238,6 +262,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/homework\/dev\/content\/hero.html",
+      "oF" : 0
+    },
+    "\/homework\/dev\/content\/subHero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/homework\/dev\/content\/subHero.html",
       "oF" : 0
     },
     "\/homework\/dev\/global\/footer.kit" : {
