@@ -190,6 +190,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/homework\/deploy\/img\/hero\/hero1.jpg" : {
+      "ft" : 16384,
+      "iS" : 59475,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/homework\/deploy\/img\/hero\/hero1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/homework\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -213,7 +226,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/homework\/dev\/content\/hero.html",
       "oF" : 0
     },
