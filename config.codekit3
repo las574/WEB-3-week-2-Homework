@@ -274,6 +274,67 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/homework\/deploy\/img\/new\/new1.jpg" : {
+      "ft" : 16384,
+      "iS" : 102494,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/homework\/deploy\/img\/new\/new1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/homework\/deploy\/img\/new\/new2.jpg" : {
+      "ft" : 16384,
+      "iS" : 2066647,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/homework\/deploy\/img\/new\/new2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/homework\/deploy\/img\/new\/new3.webp" : {
+      "ft" : 8388608,
+      "iS" : 51318,
+      "oA" : 0,
+      "oAP" : "\/homework\/deploy\/img\/new\/new3.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/homework\/deploy\/img\/new\/new4.webp" : {
+      "ft" : 8388608,
+      "iS" : 265734,
+      "oA" : 0,
+      "oAP" : "\/homework\/deploy\/img\/new\/new4.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/homework\/deploy\/img\/new\/New5.jpg" : {
+      "ft" : 16384,
+      "iS" : 79363,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/homework\/deploy\/img\/new\/New5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/homework\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -307,6 +368,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/homework\/dev\/content\/hero.html",
+      "oF" : 0
+    },
+    "\/homework\/dev\/content\/new.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/homework\/dev\/content\/new.html",
       "oF" : 0
     },
     "\/homework\/dev\/content\/subHero.kit" : {
