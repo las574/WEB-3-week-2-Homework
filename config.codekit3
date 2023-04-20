@@ -160,6 +160,26 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/homework\/deploy\/img\/Footer\/arrow.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/homework\/deploy\/img\/Footer\/arrow.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/homework\/deploy\/img\/Footer\/phone.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/homework\/deploy\/img\/Footer\/phone.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/homework\/deploy\/img\/gallery\/gallery1.jpg" : {
       "ft" : 16384,
       "iS" : 79363,
@@ -390,7 +410,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/homework\/dev\/global\/footer.html",
       "oF" : 0
     },
