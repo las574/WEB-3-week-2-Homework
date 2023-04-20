@@ -209,6 +209,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/homework\/dev\/content\/hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/homework\/dev\/content\/hero.html",
+      "oF" : 0
+    },
     "\/homework\/dev\/global\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
