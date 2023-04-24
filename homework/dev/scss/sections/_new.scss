@@ -4,5 +4,11 @@
 
 #new{
 
-    
+    display: grid;
+    grid-template-columns: 14px auto 14px;
+    grid-template-areas: ". new .";
+
+    >div{
+        grid-area: new;
+    }
 }

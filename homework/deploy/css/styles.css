@@ -363,7 +363,7 @@ textarea {
 ============= */
 header {
   display: grid;
-  grid-template-columns: 16px auto 16px;
+  grid-template-columns: 14px auto 14px;
   grid-template-areas: "header";
 }
 header > div {
@@ -373,13 +373,48 @@ header > div {
 /* =============
     Footer
 ============= */
+#footer {
+  display: grid;
+  grid-template-columns: 14px auto 14px;
+  grid-template-areas: ". footer .";
+}
+#footer > div {
+  grid-area: footer;
+}
+
 /* =============
     Hero
 ============= */
+#hero {
+  display: grid;
+  grid-template-columns: 14px auto 14px;
+  grid-template-areas: ". hero .";
+}
+#hero > div {
+  grid-area: hero;
+}
+
 /*----- SubHero  -----*/
+#subhero1 {
+  display: grid;
+  grid-template-columns: 14px auto 14px;
+  grid-template-areas: ". subhero .";
+}
+#subhero1 > div {
+  grid-area: subhero;
+}
+
 /* =============
     Gallery 
 ============= */
 /* =============
     New
 ============= */
+#new {
+  display: grid;
+  grid-template-columns: 14px auto 14px;
+  grid-template-areas: ". new .";
+}
+#new > div {
+  grid-area: new;
+}
