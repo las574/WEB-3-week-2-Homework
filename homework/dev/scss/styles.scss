@@ -15,7 +15,11 @@
 @import "components/_navigation";
 
 // Layout Styles
-@import "layout/_header";
+@import "./layout/header";
 @import "layout/_footer";
 
 // Sections Styles
+@import "./sections/hero";
+@import "sections/gallery";
+@import "sections/new";
+
