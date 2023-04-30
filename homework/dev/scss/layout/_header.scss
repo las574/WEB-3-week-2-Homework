@@ -3,11 +3,27 @@
 ============= */
 
 header{
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: "header";
+    #logonav{
+    
+        display: grid;
+         grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". logo-nav .";
 
     >div{
-        grid-area: header;
+        background-color: #fe9fc1;
+        grid-area: logonav;
     }
+}
+
+#form-content{
+    display: grid;
+         grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". search .";
+
+    >div{
+        background-color: #ffffff;
+        grid-area: search;
+    }
+
+}
 }

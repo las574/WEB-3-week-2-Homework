@@ -369,13 +369,23 @@ textarea {
 /* =============
     Header
 ============= */
-header {
+header #logonav {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: "header";
+  grid-template-areas: ". logo-nav .";
 }
-header > div {
-  grid-area: header;
+header #logonav > div {
+  background-color: #fe9fc1;
+  grid-area: logonav;
+}
+header #form-content {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". search .";
+}
+header #form-content > div {
+  background-color: #ffffff;
+  grid-area: search;
 }
 
 /* =============
