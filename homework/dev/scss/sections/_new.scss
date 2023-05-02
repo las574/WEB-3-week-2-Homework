@@ -2,13 +2,12 @@
     New
 ============= */
 
-#new{
+#new {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". new .";
 
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". new .";
-
-    >div{
-        grid-area: new;
-    }
+  > div {
+    grid-area: new;
+  }
 }

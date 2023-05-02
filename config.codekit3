@@ -662,6 +662,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/homework\/dev\/scss\/sections\/_subhero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/homework\/dev\/scss\/sections\/_subhero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/homework\/dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,

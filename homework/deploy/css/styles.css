@@ -169,7 +169,8 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -178,7 +179,8 @@ input { /* 1 */
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -348,11 +350,39 @@ ul li {
 /* =============
     Forms
 ============= */
-[type=text], [type=password], [type=date], [type=datetime], [type=datetime-local], [type=month], [type=week], [type=email], [type=number], [type=search], [type=tel], [type=time], [type=url], [type=color], textarea {
+[type=text],
+[type=password],
+[type=date],
+[type=datetime],
+[type=datetime-local],
+[type=month],
+[type=week],
+[type=email],
+[type=number],
+[type=search],
+[type=tel],
+[type=time],
+[type=url],
+[type=color],
+textarea {
   box-shadow: none;
 }
 
-[type=text]:focus, [type=password]:focus, [type=date]:focus, [type=datetime]:focus, [type=datetime-local]:focus, [type=month]:focus, [type=week]:focus, [type=email]:focus, [type=number]:focus, [type=search]:focus, [type=tel]:focus, [type=time]:focus, [type=url]:focus, [type=color]:focus, textarea:focus {
+[type=text]:focus,
+[type=password]:focus,
+[type=date]:focus,
+[type=datetime]:focus,
+[type=datetime-local]:focus,
+[type=month]:focus,
+[type=week]:focus,
+[type=email]:focus,
+[type=number]:focus,
+[type=search]:focus,
+[type=tel]:focus,
+[type=time]:focus,
+[type=url]:focus,
+[type=color]:focus,
+textarea:focus {
   box-shadow: none;
 }
 
@@ -369,14 +399,14 @@ textarea {
 /* =============
     Header
 ============= */
-header #logonav {
+header #logo-nav {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". logo-nav .";
 }
-header #logonav > div {
+header #logo-nav > div {
   background-color: #fe9fc1;
-  grid-area: logonav;
+  grid-area: logo-nav;
 }
 header #form-content {
   display: grid;
@@ -384,7 +414,7 @@ header #form-content {
   grid-template-areas: ". search .";
 }
 header #form-content > div {
-  background-color: #ffffff;
+  background-color: pink;
   grid-area: search;
 }
 
@@ -407,19 +437,25 @@ header #form-content > div {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". hero .";
+  background-color: pink;
 }
 #hero > div {
   grid-area: hero;
 }
 
-/*----- SubHero  -----*/
-#subhero1 {
+/* =============
+    Sub-Hero
+============= */
+#sub-hero aside {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". subhero .";
+  grid-template-areas: ". sub-hero .";
 }
-#subhero1 > div {
-  grid-area: subhero;
+#sub-hero aside > div {
+  background-color: red;
+  grid-area: sub-hero;
+  display: grid;
+  grid-template-columns: 70% auto;
 }
 
 /* =============

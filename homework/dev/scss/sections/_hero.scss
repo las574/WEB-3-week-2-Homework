@@ -1,31 +1,12 @@
 /* =============
     Hero
 ============= */
-#hero{
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". hero .";
-
-    >div{
-        grid-area: hero;
-    }
-}
-
-
-
-
-
-
-/*----- SubHero  -----*/
-
-#subhero1{
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". subhero .";
-
-    >div{
-        grid-area: subhero;
-    }
-
-
+#hero {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". hero .";
+  background-color: pink;
+  > div {
+    grid-area: hero;
+  }
 }

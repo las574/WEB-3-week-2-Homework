@@ -1,0 +1,17 @@
+/* =============
+    Sub-Hero
+============= */
+
+#sub-hero {
+  aside {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". sub-hero .";
+    > div {
+      background-color: red;
+      grid-area: sub-hero;
+      display: grid;
+      grid-template-columns: 70% auto;
+    }
+  }
+}

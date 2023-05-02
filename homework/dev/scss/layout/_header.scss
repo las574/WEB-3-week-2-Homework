@@ -3,14 +3,14 @@
 ============= */
 
 header {
-  #logonav {
+  #logo-nav {
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". logo-nav .";
 
     > div {
       background-color: #fe9fc1;
-      grid-area: logonav;
+      grid-area: logo-nav;
     }
   }
 
@@ -20,7 +20,7 @@ header {
     grid-template-areas: ". search .";
 
     > div {
-      background-color: #ffffff;
+      background-color: pink;
       grid-area: search;
     }
   }
