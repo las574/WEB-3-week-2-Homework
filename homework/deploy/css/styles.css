@@ -428,6 +428,7 @@ header #form-content > div {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". footer .";
+  background-color: green;
 }
 #footer > div {
   grid-area: footer;
@@ -436,14 +437,15 @@ header #form-content > div {
 /* =============
     Hero
 ============= */
-#hero {
+#hero section {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". hero .";
-  background-color: pink;
+  background-color: violet;
 }
-#hero > div {
+#hero section > div {
   grid-area: hero;
+  background-color: pink;
 }
 
 /* =============
@@ -453,6 +455,7 @@ header #form-content > div {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". sub-hero .";
+  background-color: olive;
 }
 #sub-hero aside > div {
   background-color: red;
@@ -467,15 +470,15 @@ header #form-content > div {
 /* =============
     New
 ============= */
-#new setion img {
+#new section img {
   width: 100%;
 }
-#new setion .card-data {
+#new section .card-data {
   background-color: purple;
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". card-data .";
 }
-#new setion .card-data > div {
+#new section .card-data > div {
   grid-area: card-data;
 }
