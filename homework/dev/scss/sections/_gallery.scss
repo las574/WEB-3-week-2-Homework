@@ -2,5 +2,45 @@
     Gallery 
 ============= */
 
-#about {
+#gallery {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". gallery .";
+
+  > div {
+    grid-area: gallery;
+    background-color: var(--gray);
+
+    ul {
+      margin: 0%;
+      padding: 0%;
+
+      @include md {
+        display: grid;
+        // grid-template-columns: 50% auto;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+          "gallery1 gallery1 gallery2 gallery2"
+          "gallery3 gallery3 gallery4 gallery4"
+          ". gallery5 gallery5";
+        gap: 16px;
+      }
+
+      @include lg {
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-areas:
+          "gallery1 gallery1 gallery2 gallery2 gallery3 gallery3"
+          ". gallery4 gallery4 gallery5 gallery5 .";
+      }
+
+      li {
+        list-style: none;
+        background-color: var(--lightGray);
+        padding-top: 150%;
+        padding-bottom: 150%;
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
 }

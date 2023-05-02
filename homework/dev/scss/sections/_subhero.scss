@@ -7,9 +7,9 @@
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". sub-hero .";
-    background-color: olive;
+    background-color: #fff;
     > div {
-      background-color: red;
+      background-color: #3f0f20;
       grid-area: sub-hero;
       display: grid;
       grid-template-columns: 70% auto;

@@ -5,7 +5,7 @@
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". footer .";
-  background-color: green;
+  background-color: #3f0f20;
 
   > div {
     grid-area: footer;

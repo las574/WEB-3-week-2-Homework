@@ -12,7 +12,7 @@ header {
     }
 
     > div {
-      background-color: #fe9fc1;
+      background-color: #ffff;
       grid-area: logo-nav;
     }
   }
@@ -23,7 +23,7 @@ header {
     grid-template-areas: ". search .";
 
     > div {
-      background-color: pink;
+      background-color: #ffff;
       grid-area: search;
     }
   }
