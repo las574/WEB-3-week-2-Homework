@@ -404,6 +404,9 @@ header #logo-nav {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". logo-nav .";
 }
+header #logo-nav img {
+  width: 100%;
+}
 header #logo-nav > div {
   background-color: #fe9fc1;
   grid-area: logo-nav;
@@ -464,11 +467,15 @@ header #form-content > div {
 /* =============
     New
 ============= */
-#new {
+#new setion img {
+  width: 100%;
+}
+#new setion .card-data {
+  background-color: purple;
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". new .";
+  grid-template-areas: ". card-data .";
 }
-#new > div {
-  grid-area: new;
+#new setion .card-data > div {
+  grid-area: card-data;
 }
