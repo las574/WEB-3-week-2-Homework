@@ -17,6 +17,13 @@ ul {
   }
 }
 
+.show-extra-large {
+  display: none;
+  @include xl {
+    display: block;
+  }
+}
+
 .large-images {
   width: 100%;
 }

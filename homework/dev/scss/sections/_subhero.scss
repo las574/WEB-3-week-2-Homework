@@ -7,10 +7,10 @@
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". sub-hero-cards .";
+  }
 
-    @include xxl {
-      grid-template-columns: auto 1200px auto;
-    }
+  @include xxl {
+    grid-template-columns: auto 1200px auto;
   }
   > div {
     display: grid;
@@ -18,20 +18,30 @@
 
     @include md {
       grid-area: sub-hero-cards;
+      display: grid;
       grid-template-columns: 50% auto;
     }
 
-    aside {
+    > aside {
       display: grid;
       grid-template-columns: 16px auto 16px;
       grid-template-areas: ". sub-hero .";
-      background-color: #0000;
+      background-color: #000;
 
       > div {
         grid-area: sub-hero;
         display: grid;
         grid-template-columns: 70% auto;
+
+        img {
+          width: 100%;
+        }
       }
+    }
+
+    #sub-left {
+      color: white;
+      background-color: orange;
     }
   }
 }

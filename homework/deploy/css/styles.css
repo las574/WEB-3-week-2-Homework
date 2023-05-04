@@ -348,6 +348,15 @@ ul li {
   }
 }
 
+.show-extra-large {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .show-extra-large {
+    display: block;
+  }
+}
+
 .large-images {
   width: 100%;
 }
@@ -489,7 +498,7 @@ header #form-content > div {
     grid-template-areas: ". sub-hero-cards .";
   }
 }
-@media (min-width: 768px) and (min-width: 1440px) {
+@media (min-width: 1440px) {
   #sub-hero {
     grid-template-columns: auto 1200px auto;
   }
@@ -501,19 +510,27 @@ header #form-content > div {
 @media (min-width: 768px) {
   #sub-hero > div {
     grid-area: sub-hero-cards;
+    display: grid;
     grid-template-columns: 50% auto;
   }
 }
-#sub-hero > div aside {
+#sub-hero > div > aside {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". sub-hero .";
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #000;
 }
-#sub-hero > div aside > div {
+#sub-hero > div > aside > div {
   grid-area: sub-hero;
   display: grid;
   grid-template-columns: 70% auto;
+}
+#sub-hero > div > aside > div img {
+  width: 100%;
+}
+#sub-hero > div #sub-left {
+  color: white;
+  background-color: orange;
 }
 
 /* =============
@@ -524,16 +541,14 @@ header #form-content > div {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". gallery .";
 }
-#gallery > div {
+#gallery ul {
   grid-area: gallery;
   background-color: var(--gray);
-}
-#gallery > div ul {
   margin: 0%;
   padding: 0%;
 }
 @media (min-width: 768px) {
-  #gallery > div ul {
+  #gallery ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: "gallery1 gallery1 gallery2 gallery2" "gallery3 gallery3 gallery4 gallery4" ". gallery5 gallery5";
@@ -541,12 +556,12 @@ header #form-content > div {
   }
 }
 @media (min-width: 1024px) {
-  #gallery > div ul {
+  #gallery ul {
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas: "gallery1 gallery1 gallery2 gallery2 gallery3 gallery3" ". gallery4 gallery4 gallery5 gallery5 .";
   }
 }
-#gallery > div ul li {
+#gallery ul li {
   list-style: none;
   background-color: var(--lightGray);
   padding-top: 150%;
