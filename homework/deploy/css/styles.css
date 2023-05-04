@@ -339,6 +339,15 @@ ul li {
   list-style: none;
 }
 
+.show-large {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .show-large {
+    display: block;
+  }
+}
+
 .large-images {
   width: 100%;
 }
@@ -456,21 +465,52 @@ header #form-content > div {
 #hero #hero-bottom #hero-bottom-left {
   background-color: #fd1569;
 }
+@media (min-width: 1440px) {
+  #hero #hero-bottom #hero-bottom-left {
+    grid-template-columns: 20% auto 16px;
+  }
+}
 #hero #hero-bottom #hero-bottom-right {
   background-color: #3f0f20;
+}
+@media (min-width: 1440px) {
+  #hero #hero-bottom #hero-bottom-right {
+    grid-template-columns: 16px auto 20%;
+  }
 }
 
 /* =============
     Sub-Hero
 ============= */
-#sub-hero aside {
+@media (min-width: 768px) {
+  #sub-hero {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". sub-hero-cards .";
+  }
+}
+@media (min-width: 768px) and (min-width: 1440px) {
+  #sub-hero {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#sub-hero > div {
+  display: grid;
+  gap: 16px;
+}
+@media (min-width: 768px) {
+  #sub-hero > div {
+    grid-area: sub-hero-cards;
+    grid-template-columns: 50% auto;
+  }
+}
+#sub-hero > div aside {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". sub-hero .";
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0);
 }
-#sub-hero aside > div {
-  background-color: #000000;
+#sub-hero > div aside > div {
   grid-area: sub-hero;
   display: grid;
   grid-template-columns: 70% auto;

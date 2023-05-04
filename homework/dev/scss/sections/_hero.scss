@@ -20,10 +20,16 @@
 
     #hero-bottom-left {
       background-color: #fd1569;
+      @include xxl {
+        grid-template-columns: 20% auto 16px;
+      }
     }
 
     #hero-bottom-right {
       background-color: #3f0f20;
+      @include xxl {
+        grid-template-columns: 16px auto 20%;
+      }
     }
   }
 }
