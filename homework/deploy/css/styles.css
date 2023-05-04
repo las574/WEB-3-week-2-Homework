@@ -488,6 +488,14 @@ header #form-content > div {
   }
 }
 
+#hero-bottom-left {
+  color: white;
+}
+
+#hero-bottom-right {
+  color: white;
+}
+
 /* =============
     Sub-Hero
 ============= */
@@ -518,7 +526,7 @@ header #form-content > div {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". sub-hero .";
-  background-color: #000;
+  background-color: #fe9fc1;
 }
 #sub-hero > div > aside > div {
   grid-area: sub-hero;
@@ -530,7 +538,10 @@ header #form-content > div {
 }
 #sub-hero > div #sub-left {
   color: white;
-  background-color: orange;
+  background-color: #000;
+}
+#sub-hero > div #sub-right {
+  color: white;
 }
 
 /* =============
