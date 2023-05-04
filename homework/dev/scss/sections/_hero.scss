@@ -2,14 +2,28 @@
     Hero
 ============= */
 #hero {
-  section {
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". hero .";
-    background-color: #fff;
-    > div {
-      grid-area: hero;
-      background-color: pink;
+  #hero-bottom {
+    @include md {
+      display: grid;
+      grid-template-columns: 40% auto;
+    }
+
+    section {
+      display: grid;
+      grid-template-columns: 16px auto 16px;
+      grid-template-areas: ". subhero .";
+
+      > div {
+        grid-area: hero-sub;
+      }
+    }
+
+    #hero-bottom-left {
+      background-color: #fd1569;
+    }
+
+    #hero-bottom-right {
+      background-color: #3f0f20;
     }
   }
 }

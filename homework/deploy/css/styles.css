@@ -439,15 +439,25 @@ header #form-content > div {
 /* =============
     Hero
 ============= */
-#hero section {
+@media (min-width: 768px) {
+  #hero #hero-bottom {
+    display: grid;
+    grid-template-columns: 40% auto;
+  }
+}
+#hero #hero-bottom section {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". hero .";
-  background-color: #fff;
+  grid-template-areas: ". subhero .";
 }
-#hero section > div {
-  grid-area: hero;
-  background-color: pink;
+#hero #hero-bottom section > div {
+  grid-area: hero-sub;
+}
+#hero #hero-bottom #hero-bottom-left {
+  background-color: #fd1569;
+}
+#hero #hero-bottom #hero-bottom-right {
+  background-color: #3f0f20;
 }
 
 /* =============
@@ -460,7 +470,7 @@ header #form-content > div {
   background-color: #fff;
 }
 #sub-hero aside > div {
-  background-color: #3f0f20;
+  background-color: #000000;
   grid-area: sub-hero;
   display: grid;
   grid-template-columns: 70% auto;
