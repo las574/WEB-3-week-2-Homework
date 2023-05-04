@@ -547,38 +547,44 @@ header #form-content > div {
 /* =============
     Gallery 
 ============= */
-#gallery {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". gallery .";
-}
-#gallery ul {
-  grid-area: gallery;
-  background-color: var(--gray);
-  margin: 0%;
-  padding: 0%;
+@media (min-width: 1024px) {
+  #gallery {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". gallery .";
+  }
 }
 @media (min-width: 768px) {
   #gallery ul {
+    grid-area: gallery;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: "gallery1 gallery1 gallery2 gallery2" "gallery3 gallery3 gallery4 gallery4" ". gallery5 gallery5";
-    gap: 16px;
+    grid-template-columns: 50% auto;
   }
 }
 @media (min-width: 1024px) {
   #gallery ul {
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-areas: "gallery1 gallery1 gallery2 gallery2 gallery3 gallery3" ". gallery4 gallery4 gallery5 gallery5 .";
+    grid-template-columns: 60% auto;
   }
 }
-#gallery ul li {
-  list-style: none;
-  background-color: var(--lightGray);
-  padding-top: 150%;
-  padding-bottom: 150%;
-  width: 100%;
-  text-align: center;
+@media (min-width: 1440px) {
+  #gallery ul {
+    grid-template-areas: "g1 g2" "g1 g3";
+  }
+}
+@media (min-width: 1440px) {
+  #gallery ul #g1 {
+    grid-area: g1;
+  }
+}
+@media (min-width: 1440px) {
+  #gallery ul #g2 {
+    grid-area: g2;
+  }
+}
+@media (min-width: 1440px) {
+  #gallery ul #g3 {
+    grid-area: g3;
+  }
 }
 
 /* =============
