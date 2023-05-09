@@ -25,6 +25,13 @@ header {
     > div {
       background-color: #ffff;
       grid-area: search;
+
+      form {
+        display: flex;
+        input {
+          width: 100%;
+        }
+      }
     }
   }
 }

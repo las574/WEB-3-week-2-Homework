@@ -440,6 +440,12 @@ header #form-content > div {
   background-color: white;
   grid-area: search;
 }
+header #form-content > div form {
+  display: flex;
+}
+header #form-content > div form input {
+  width: 100%;
+}
 
 /* =============
     Footer
@@ -463,9 +469,13 @@ header #form-content > div {
     grid-template-columns: 40% auto;
   }
 }
+@media (min-width: 1024px) {
+  #hero #hero-bottom {
+    grid-template-columns: 50% auto;
+  }
+}
 #hero #hero-bottom section {
   display: grid;
-  grid-template-columns: 16px auto 16px;
   grid-template-areas: ". subhero .";
 }
 #hero #hero-bottom section > div {
@@ -590,15 +600,83 @@ header #form-content > div {
 /* =============
     New
 ============= */
-#new section img {
+@media (min-width: 768px) {
+  #new {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". new .";
+  }
+}
+@media (min-width: 1440px) {
+  #new {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+@media (min-width: 768px) {
+  #new > div {
+    grid-area: new;
+  }
+}
+#new #card-container {
+  display: grid;
+  gap: 16px;
+}
+@media (min-width: 768px) {
+  #new #card-container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "nt nt nt nt" "n1 n1 n2 n2" "n3 n3 n4 n4" ".. n5 n5 ..";
+  }
+}
+@media (min-width: 1024px) {
+  #new #card-container {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "nt nt nt nt nt nt" "n1 n1 n2 n2 n3 n3" ".. n4 n4 n5 n5 ..";
+  }
+}
+@media (min-width: 768px) {
+  #new #card-container h1 {
+    grid-area: nt;
+  }
+}
+#new #card-container section img {
   width: 100%;
 }
-#new section .card-data {
+#new #card-container section .card-data {
   background-color: #fe9fc1;
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". card-data .";
 }
-#new section .card-data > div {
+#new #card-container section .card-data > div {
   grid-area: card-data;
+}
+@media (min-width: 768px) {
+  #new #card-container #nt {
+    grid-area: nt;
+  }
+}
+@media (min-width: 768px) {
+  #new #card-container #n1 {
+    grid-area: n1;
+  }
+}
+@media (min-width: 768px) {
+  #new #card-container #n2 {
+    grid-area: n2;
+  }
+}
+@media (min-width: 768px) {
+  #new #card-container #n3 {
+    grid-area: n3;
+  }
+}
+@media (min-width: 768px) {
+  #new #card-container #n4 {
+    grid-area: n4;
+  }
+}
+@media (min-width: 768px) {
+  #new #card-container #n5 {
+    grid-area: n5;
+  }
 }
