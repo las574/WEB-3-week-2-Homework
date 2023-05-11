@@ -438,6 +438,12 @@ header #form-content {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". search .";
+  padding: 16px 0;
+}
+@media (min-width: 768px) {
+  header #form-content {
+    padding: 24px 0;
+  }
 }
 header #form-content > div {
   background-color: white;
@@ -447,7 +453,17 @@ header #form-content > div form {
   display: flex;
 }
 header #form-content > div form input {
+  border: none;
+  border-bottom: 1px solid var(--barbiepink);
   width: 100%;
+  border-radius: 0%;
+  margin-right: 8px;
+}
+header #form-content > div form button {
+  border: none;
+  background-color: var(--barbiepink);
+  border-radius: 5px;
+  padding: 12px 16px;
 }
 
 /* =============
