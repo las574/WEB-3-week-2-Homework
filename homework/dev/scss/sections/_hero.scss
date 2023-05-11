@@ -2,6 +2,10 @@
     Hero
 ============= */
 #hero {
+  img {
+    font-size: 0;
+    display: block;
+  }
   #hero-bottom {
     @include md {
       display: grid;
@@ -12,12 +16,25 @@
       grid-template-columns: 50% auto;
     }
 
-    section {
+    .hero-bottom-card {
       display: grid;
+      grid-template-columns: 16px auto 16px;
       grid-template-areas: ". subhero .";
+      color: white;
+      padding: 16px 0;
 
       > div {
         grid-area: hero-sub;
+        display: flex;
+        align-items: center;
+
+        aside {
+          margin-left: auto;
+
+          a {
+            display: flex;
+          }
+        }
       }
     }
 

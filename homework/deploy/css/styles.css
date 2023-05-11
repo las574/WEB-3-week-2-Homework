@@ -445,6 +445,11 @@ header #form-content {
     padding: 24px 0;
   }
 }
+@media (min-width: 1440px) {
+  header #form-content {
+    grid-template-columns: auto 1200px auto;
+  }
+}
 header #form-content > div {
   background-color: white;
   grid-area: search;
@@ -482,6 +487,10 @@ header #form-content > div form button {
 /* =============
     Hero
 ============= */
+#hero img {
+  font-size: 0;
+  display: block;
+}
 @media (min-width: 768px) {
   #hero #hero-bottom {
     display: grid;
@@ -493,12 +502,23 @@ header #form-content > div form button {
     grid-template-columns: 50% auto;
   }
 }
-#hero #hero-bottom section {
+#hero #hero-bottom .hero-bottom-card {
   display: grid;
+  grid-template-columns: 16px auto 16px;
   grid-template-areas: ". subhero .";
+  color: white;
+  padding: 16px 0;
 }
-#hero #hero-bottom section > div {
+#hero #hero-bottom .hero-bottom-card > div {
   grid-area: hero-sub;
+  display: flex;
+  align-items: center;
+}
+#hero #hero-bottom .hero-bottom-card > div aside {
+  margin-left: auto;
+}
+#hero #hero-bottom .hero-bottom-card > div aside a {
+  display: flex;
 }
 #hero #hero-bottom #hero-bottom-left {
   background-color: #fd1569;

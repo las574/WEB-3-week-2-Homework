@@ -26,6 +26,9 @@ header {
     @include md {
       padding: 24px 0;
     }
+    @include xxl {
+      grid-template-columns: auto 1200px auto;
+    }
 
     > div {
       background-color: #ffff;
